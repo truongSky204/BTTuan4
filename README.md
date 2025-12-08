@@ -56,6 +56,7 @@ Tạo một màn hình Flutter hiển thị **gallery 12 hình ảnh hoặc icon
 Hoàn thành trong vòng **50 phút**.
 
 ---
+![img.png](image/img.png)
 
 ## 3. Shared Preferences Exercise
 
@@ -71,6 +72,7 @@ Tạo một app Flutter dùng **SharedPreferences** để lưu và đọc dữ l
   - Đọc và hiển thị lại tên đã lưu.
 
 **Yêu cầu xử lý:**
+![img_1.png](image/img_1.png)
 
 - Khi chưa có dữ liệu, cần hiển thị thông báo phù hợp (không crash app).
 
@@ -81,7 +83,7 @@ Tạo một app Flutter dùng **SharedPreferences** để lưu và đọc dữ l
 - Lưu và hiển thị **thời gian lưu gần nhất** (timestamp).
 
 ---
-
+![img_2.png](image/img_2.png)
 ## 4. Asynchronous Programming Exercise
 
 **Mục tiêu:**  
@@ -97,13 +99,14 @@ Làm quen với lập trình bất đồng bộ trong Flutter/Dart.
 Có thể dùng `setState` hoặc `Provider` để cập nhật UI sau khi chờ.
 
 ---
+![img_3.png](image/img_3.png)
 
 ## 5. Isolate Exercises
 
 Làm việc với **Isolate** để xử lý các tác vụ nặng và đa luồng trong Dart.
 
 ### 5.1. Challenge 1 – Factorial với Isolate
-
+![img_4.png](image/img_4.png)
 **Mục tiêu:**
 
 - Tạo app Flutter/Dart:
@@ -119,6 +122,7 @@ Không để UI bị đơ; xử lý nặng phải chạy trên isolate.
 
 ---
 
+![img_5.png](image/img_5.png)
 ### 5.2. Challenge 2 – Dart Console với Isolate
 
 Tạo một **Dart console app** với 2 isolate:
@@ -133,17 +137,3 @@ Tạo một **Dart console app** với 2 isolate:
     - Worker dùng `Isolate.exit()` để kết thúc một cách gọn gàng.
 
 ---
-
-## 6. Hướng dẫn nộp bài
-
-Theo yêu cầu bài tập:
-
-1. **Nén thư mục `lib/`** thành file `.zip`.  
-2. Upload file `.zip` lên hệ thống **E-Learning**.  
-3. Sau khi nộp, copy **link Git repository** của bạn và dán vào Google Sheet:  
-
-   https://docs.google.com/spreadsheets/d/1Ffm7vp3uYPSdrpAyikwxahYx0T5YougJC7T_QNgjFJg/edit?gid=0#gid=0
-
----
-
-> README này tóm tắt lại toàn bộ yêu cầu Tuần 4 để giảng viên có thể xem nhanh các bài tập bạn đã làm trong repo.
